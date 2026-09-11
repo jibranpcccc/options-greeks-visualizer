@@ -15,3 +15,13 @@ Black-Scholes analytical formulas, implied volatility surface solvers, and Unisw
 
 ---
 Maintained by [GreekVisualizer](https://site-19-nine.vercel.app/).
+
+## 📚 In-Depth Technical Implementation Guides
+
+| Target Engineering Query | Production Reference & Guide URL |
+| :--- | :--- |
+| **Uniswap V3 Concentrated Liquidity Impermanent Loss** | [https://site-19-nine.vercel.app/uniswap-v3-concentrated-liquidity-impermanent-loss-calculator/](https://site-19-nine.vercel.app/uniswap-v3-concentrated-liquidity-impermanent-loss-calculator/) |
+| **Options Gamma Scalping Theta Decay Hedging** | [https://site-19-nine.vercel.app/options-gamma-scalping-theta-decay-hedging-strategies/](https://site-19-nine.vercel.app/options-gamma-scalping-theta-decay-hedging-strategies/) |
+| **Black Scholes Formula Python Numpy Vectorization** | [https://site-19-nine.vercel.app/black-scholes-numpy-vectorization/](https://site-19-nine.vercel.app/black-scholes-numpy-vectorization/) |
+| **Uniswap V3 Fee Tier Selector 005 Vs 030** | [https://site-19-nine.vercel.app/uniswap-v3-fee-tier-selector/](https://site-19-nine.vercel.app/uniswap-v3-fee-tier-selector/) |
+
