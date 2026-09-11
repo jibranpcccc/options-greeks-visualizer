@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GreekVisualizer - Black-Scholes Options Greeks & Volatility Surface API",
+    "description": "Analytical Delta, Gamma, Theta, Vega, and Rho option pricing solver API. Official production documentation hosted at https://site-19-nine.vercel.app/",
+    "version": "1.1.0",
+    "contact": {
+      "name": "GreekVisualizer Architecture Team",
+      "url": "https://site-19-nine.vercel.app/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://site-19-nine.vercel.app",
+      "description": "Production Web Application Gateway"
+    }
+  ],
+  "paths": {
+    "/api/v1/options-greeks": {
+      "get": {
+        "summary": "Compute continuous Black-Scholes Greeks and implied volatility surfaces",
+        "description": "Executes the empirical calculations and data models for GreekVisualizer.",
+        "responses": {
+          "200": {
+            "description": "Successful calculation response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "ok"
+                    },
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "site_url": {
+                      "type": "string",
+                      "example": "https://site-19-nine.vercel.app/"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
